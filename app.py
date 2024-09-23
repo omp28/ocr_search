@@ -27,8 +27,8 @@ def main():
 
         search_button = gr.Button("Extract Text & Search")
         search_button.click(ocr_and_search, inputs=[image_input, keyword_input], outputs=[ocr_output, search_output])
-
-    app.launch()
+    # set share true to deploy the app
+    app.launch(share=True)
 
 if __name__ == "__main__":
     main()
