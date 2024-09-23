@@ -2,5 +2,5 @@ torch
 transformers
 gradio
 pytesseract
-opencv-python
+opencv-python-headless
 Pillow
